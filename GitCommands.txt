@@ -34,3 +34,13 @@ git remote add origin url
 
 //upload files
 git push -u origin main
+
+//adding tags
+git tag -a versionNumber
+git tag -a versionNumber -m "message"
+
+//pushing tags
+git push origin versionNumber
+
+//show tag
+git show versionNumber
