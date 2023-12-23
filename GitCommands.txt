@@ -1,0 +1,32 @@
+//git version
+git --version
+
+//initialize git and create repository
+git init
+
+//get status
+git status
+
+//change the branch to main
+git ini -b main
+
+//track files to staging area 
+git add filename.ext
+git add .
+
+//to unstage
+git rm --cached filename.ext
+
+//Commit edits with a message
+git commit -m "message"
+
+//check logs
+git log
+git log --pretty=oneline
+
+//check difference between previous updates
+git diff
+git diff --staged
+
+
+
