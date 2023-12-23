@@ -48,7 +48,12 @@ git show versionNumber
 //create a branch
 git checkout -b branchName
 git switch 
+git switch -
 
 //view branches
 git branch
+git branch --all
+
+//delete a branch
+git branc -d branchName
 
