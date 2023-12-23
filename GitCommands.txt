@@ -57,3 +57,6 @@ git branch --all
 //delete a branch
 git branc -d branchName
 
+//pull git docs
+git pull
+
