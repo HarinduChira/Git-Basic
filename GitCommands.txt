@@ -44,3 +44,11 @@ git push origin versionNumber
 
 //show tag
 git show versionNumber
+
+//create a branch
+git checkout -b branchName
+git switch 
+
+//view branches
+git branch
+
